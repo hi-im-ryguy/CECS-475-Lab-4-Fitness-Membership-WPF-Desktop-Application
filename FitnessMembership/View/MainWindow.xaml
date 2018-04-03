@@ -38,8 +38,7 @@
 								 Width="322">
 						<i:Interaction.Triggers>
 								<i:EventTrigger EventName="MouseDoubleClick">
-										<i:InvokeCommandAction Command="{Binding ChangeCommand}"
-																					 CommandParameter="{Binding ElementName=listBox, Path=SelectedItem}"/>
+										<i:InvokeCommandAction Command="{Binding ChangeCommand}"/>
 								</i:EventTrigger>
 						</i:Interaction.Triggers>
 						<ListBox.ItemTemplate>

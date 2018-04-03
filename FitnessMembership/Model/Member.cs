@@ -45,9 +45,9 @@ namespace FitnessMembership.Model
 				/// <param name="email">The member's e-mail.</param>
 				public Member(string firstName, string lastName, string email)
 				{
-						this.firstName = firstName;
-						this.lastName = lastName;
-						this.email = email;
+						FirstName = firstName;
+						LastName = lastName;
+						Email = email;
 				}
 
 				public string FirstName
