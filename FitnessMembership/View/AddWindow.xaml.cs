@@ -10,19 +10,18 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace FitnessMembership
+namespace FitnessMembership.View
 {
-		/// <summary>
-		/// Interaction logic for MainWindow.xaml
-		/// </summary>
-		public partial class MainWindow : Window
-		{
-				public MainWindow()
-				{
-						InitializeComponent();
-				}
-		}
+    /// <summary>
+    /// Interaction logic for AddWindow.xaml
+    /// </summary>
+    public partial class AddWindow : Window
+    {
+        public AddWindow()
+        {
+            InitializeComponent();
+        }
+    }
 }
